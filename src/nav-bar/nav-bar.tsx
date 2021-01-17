@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './nav-bar.css';
+import './nav-bar.scss';
+import unicornBanner from '../images/Unicorns-Unleashed-Banner.jpg';
 
 function NavBar() {
   return (
-    <header>
-      <h1>Unicorns Unleashed</h1>
-    </header>
+    <div className="nav-bar">
+      <header>
+        <img src={unicornBanner} alt="unicorn banner"/>
+      </header>
+    </div>
   );
 }
 
