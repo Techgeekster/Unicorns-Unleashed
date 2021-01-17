@@ -1,6 +1,6 @@
 {
+  "homepage": "http://techgeekster.github.io/Unicorns-Unleashed/",
   "name": "unicorns-unleashed",
-  "homepage": "https://techgeekster.github.io/Unicorns-Unleashed/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
