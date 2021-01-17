@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow, ShallowWrapper } from 'enzyme';
-import App from './app';
-import NavBar from './nav-bar/nav-bar';
+import Home from './home';
+import NavBar from '../nav-bar/nav-bar';
 
 let component: ShallowWrapper;
 
 beforeEach(() => {
   // arrange
-  component = shallow(<App />);
+  component = shallow(<Home />);
 });
 
 afterEach(() => {
@@ -15,7 +15,7 @@ afterEach(() => {
 });
 
 describe("should create", () => {
-  it("App component", () => {
+  it("Home component", () => {
     // assert
     expect(component).toBeTruthy();
   });

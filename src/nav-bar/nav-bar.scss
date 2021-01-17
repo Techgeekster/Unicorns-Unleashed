@@ -1,0 +1,13 @@
+.nav-bar {
+  text-align: center;
+
+  .unicorn-banner {
+    height: 400px;
+  }
+
+  .race-tile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 340px;
+  }
+}
