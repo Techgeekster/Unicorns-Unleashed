@@ -3,6 +3,7 @@ import { RouteComponentProps, withRouter} from "react-router-dom";
 import './race-page.scss';
 import RaceInfo from './race-info.model';
 import RaceInfoService from './services/race-page.service';
+import { Link } from 'react-router-dom';
 
 interface State {
   id: string;
@@ -38,10 +39,18 @@ class RacePage extends React.Component<RouteComponentProps, any> {
 
     return <div className="race-page">
       <div className="race-controls">
-        <a className="button primary-button">Course Info</a>
-        <a className="button primary-button">Volunteer</a>
-        <a className="button primary-button">Galleries</a>
-        <a className="button primary-button">Results</a>
+        <Link className="button primary-button" to="/course-info">
+          Course Info
+        </Link>
+        <Link className="button primary-button" to="/course-info">
+          Volunteer
+        </Link>
+        <Link className="button primary-button" to="/course-info">
+          Galleries
+        </Link>
+        <Link className="button primary-button" to="/course-info">
+          Results
+        </Link>
       </div>
       <div className="header-row">
         <div>

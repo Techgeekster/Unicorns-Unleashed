@@ -11,13 +11,23 @@ function Footer() {
             <Link to="/home">
               Home
             </Link>
-            <a>Volunteer</a>
-            <a>Contact Us</a>
+            <Link to="/volunteer">
+              Volunteer
+            </Link>
+            <Link to="/contact-us">
+              Contact Us
+            </Link>
           </div>
           <div className="column">
-            <a>FAQ</a>
-            <a>About</a>
-            <a>Meet Us</a>
+            <Link to="/faq">
+              FAQ
+            </Link>
+            <Link to="/about">
+              About
+            </Link>
+            <Link to="/meet-us">
+              Meet Us
+            </Link>
           </div>
         </div>
       </footer>
