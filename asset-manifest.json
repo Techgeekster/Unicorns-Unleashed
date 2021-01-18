@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Unicorns-Unleashed/static/css/main.9781fcf3.chunk.css",
-    "main.js": "/Unicorns-Unleashed/static/js/main.ea85484a.chunk.js",
-    "main.js.map": "/Unicorns-Unleashed/static/js/main.ea85484a.chunk.js.map",
+    "main.css": "/Unicorns-Unleashed/static/css/main.a1d58789.chunk.css",
+    "main.js": "/Unicorns-Unleashed/static/js/main.b47de5a0.chunk.js",
+    "main.js.map": "/Unicorns-Unleashed/static/js/main.b47de5a0.chunk.js.map",
     "runtime-main.js": "/Unicorns-Unleashed/static/js/runtime-main.f55f158a.js",
     "runtime-main.js.map": "/Unicorns-Unleashed/static/js/runtime-main.f55f158a.js.map",
     "static/js/2.e4749c5a.chunk.js": "/Unicorns-Unleashed/static/js/2.e4749c5a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fba8d8eb.chunk.js": "/Unicorns-Unleashed/static/js/3.fba8d8eb.chunk.js",
     "static/js/3.fba8d8eb.chunk.js.map": "/Unicorns-Unleashed/static/js/3.fba8d8eb.chunk.js.map",
     "index.html": "/Unicorns-Unleashed/index.html",
-    "static/css/main.9781fcf3.chunk.css.map": "/Unicorns-Unleashed/static/css/main.9781fcf3.chunk.css.map",
+    "static/css/main.a1d58789.chunk.css.map": "/Unicorns-Unleashed/static/css/main.a1d58789.chunk.css.map",
     "static/js/2.e4749c5a.chunk.js.LICENSE.txt": "/Unicorns-Unleashed/static/js/2.e4749c5a.chunk.js.LICENSE.txt",
     "static/media/55k-course.62d2375d.jpg": "/Unicorns-Unleashed/static/media/55k-course.62d2375d.jpg",
     "static/media/Unicorns-Unleashed-Banner.27f7280a.jpg": "/Unicorns-Unleashed/static/media/Unicorns-Unleashed-Banner.27f7280a.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f55f158a.js",
     "static/js/2.e4749c5a.chunk.js",
-    "static/css/main.9781fcf3.chunk.css",
-    "static/js/main.ea85484a.chunk.js"
+    "static/css/main.a1d58789.chunk.css",
+    "static/js/main.b47de5a0.chunk.js"
   ]
 }
