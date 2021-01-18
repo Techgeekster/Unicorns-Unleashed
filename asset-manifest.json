@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Unicorns-Unleashed/static/css/main.222c12ac.chunk.css",
-    "main.js": "/Unicorns-Unleashed/static/js/main.698cfa85.chunk.js",
-    "main.js.map": "/Unicorns-Unleashed/static/js/main.698cfa85.chunk.js.map",
-    "runtime-main.js": "/Unicorns-Unleashed/static/js/runtime-main.a2cca018.js",
-    "runtime-main.js.map": "/Unicorns-Unleashed/static/js/runtime-main.a2cca018.js.map",
-    "static/js/2.39be735b.chunk.js": "/Unicorns-Unleashed/static/js/2.39be735b.chunk.js",
-    "static/js/2.39be735b.chunk.js.map": "/Unicorns-Unleashed/static/js/2.39be735b.chunk.js.map",
-    "static/js/3.0bdea4db.chunk.js": "/Unicorns-Unleashed/static/js/3.0bdea4db.chunk.js",
-    "static/js/3.0bdea4db.chunk.js.map": "/Unicorns-Unleashed/static/js/3.0bdea4db.chunk.js.map",
+    "main.css": "/Unicorns-Unleashed/static/css/main.8c4770d3.chunk.css",
+    "main.js": "/Unicorns-Unleashed/static/js/main.b5acd4ee.chunk.js",
+    "main.js.map": "/Unicorns-Unleashed/static/js/main.b5acd4ee.chunk.js.map",
+    "runtime-main.js": "/Unicorns-Unleashed/static/js/runtime-main.f55f158a.js",
+    "runtime-main.js.map": "/Unicorns-Unleashed/static/js/runtime-main.f55f158a.js.map",
+    "static/js/2.e4749c5a.chunk.js": "/Unicorns-Unleashed/static/js/2.e4749c5a.chunk.js",
+    "static/js/2.e4749c5a.chunk.js.map": "/Unicorns-Unleashed/static/js/2.e4749c5a.chunk.js.map",
+    "static/js/3.fba8d8eb.chunk.js": "/Unicorns-Unleashed/static/js/3.fba8d8eb.chunk.js",
+    "static/js/3.fba8d8eb.chunk.js.map": "/Unicorns-Unleashed/static/js/3.fba8d8eb.chunk.js.map",
     "index.html": "/Unicorns-Unleashed/index.html",
-    "static/css/main.222c12ac.chunk.css.map": "/Unicorns-Unleashed/static/css/main.222c12ac.chunk.css.map",
-    "static/js/2.39be735b.chunk.js.LICENSE.txt": "/Unicorns-Unleashed/static/js/2.39be735b.chunk.js.LICENSE.txt",
+    "static/css/main.8c4770d3.chunk.css.map": "/Unicorns-Unleashed/static/css/main.8c4770d3.chunk.css.map",
+    "static/js/2.e4749c5a.chunk.js.LICENSE.txt": "/Unicorns-Unleashed/static/js/2.e4749c5a.chunk.js.LICENSE.txt",
+    "static/media/55k-course.62d2375d.jpg": "/Unicorns-Unleashed/static/media/55k-course.62d2375d.jpg",
     "static/media/Unicorns-Unleashed-Banner.27f7280a.jpg": "/Unicorns-Unleashed/static/media/Unicorns-Unleashed-Banner.27f7280a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2cca018.js",
-    "static/js/2.39be735b.chunk.js",
-    "static/css/main.222c12ac.chunk.css",
-    "static/js/main.698cfa85.chunk.js"
+    "static/js/runtime-main.f55f158a.js",
+    "static/js/2.e4749c5a.chunk.js",
+    "static/css/main.8c4770d3.chunk.css",
+    "static/js/main.b5acd4ee.chunk.js"
   ]
 }
