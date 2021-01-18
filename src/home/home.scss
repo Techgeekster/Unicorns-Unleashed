@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+  margin-top: 20px;
+
+  .race-tile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 340px;
+
+    .race-tile {
+      margin: 0 25px;
+    }
+  }
+
+  .course-image {
+    margin: 50px 0;
+
+    img {
+      height: 400px;
+    }
+  }
+
+  .course-description {
+    margin-top: 100px;
+    margin: 0 300px;
+    font-size: 25px;
+  }
+}
