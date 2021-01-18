@@ -1,7 +1,7 @@
-import React from 'react';
-import './home.scss';
-import RaceTile from './components/race-tile/race-tile';
-import courseImage from '../../images/course-picture-1.jpg';
+import React from "react";
+import "./home.scss";
+import RaceTile from "./components/race-tile/race-tile";
+import courseImage from "../../images/course-picture-1.jpg";
 
 function Home() {
   let courseDescription: string = "Come join us on an epic adventure through the trails of Hobble Creek Springville! We have a 55k option, a 5k option, and a kids 1k option. The best detail about it!? It's UNICORN themed! We'll have course markings, course support, and AWESOME swag like you've never experienced before in other races. So pony up and join us on August 14th 2021.";

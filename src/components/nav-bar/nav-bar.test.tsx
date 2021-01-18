@@ -1,6 +1,6 @@
-import React from 'react';
-import NavBar from './nav-bar';
-import { shallow, ShallowWrapper } from 'enzyme';
+import React from "react";
+import NavBar from "./nav-bar";
+import { shallow, ShallowWrapper } from "enzyme";
 
 let component: ShallowWrapper;
 

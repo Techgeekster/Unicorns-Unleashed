@@ -1,5 +1,5 @@
-import React from 'react';
-import UnderConstructionImage from '../images/under-construction.png';
+import React from "react";
+import UnderConstructionImage from "../images/under-construction.png";
 
 function UnderConstruction() {
   return (

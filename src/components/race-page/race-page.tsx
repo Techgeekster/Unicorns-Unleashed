@@ -1,13 +1,13 @@
 import React from "react";
 import { RouteComponentProps, withRouter} from "react-router-dom";
-import './race-page.scss';
-import RaceInfo from './race-info.model';
-import RaceInfoService from './services/race-page.service';
-import { Link } from 'react-router-dom';
+import "./race-page.scss";
+import RaceInfoModel from "./race-info.model";
+import RaceInfoService from "./services/race-page.service";
+import { Link } from "react-router-dom";
 
 interface State {
   id: string;
-  raceInfo: RaceInfo;
+  raceInfo: RaceInfoModel;
 }
 
 class RacePage extends React.Component<RouteComponentProps, any> {
@@ -15,8 +15,8 @@ class RacePage extends React.Component<RouteComponentProps, any> {
     super(props);
     (this.state as State) = {
       id: "",
-      raceInfo: {} as RaceInfo
-    }
+      raceInfo: {} as RaceInfoModel
+    };
   }
 
   componentDidMount() {
@@ -32,9 +32,9 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       courseImage =
         <div className="course-image">
           <img src={ this.state.raceInfo.courseImageSrc } alt="course"/>
-        </div> 
+        </div>;
     } else {
-      courseImage = '';
+      courseImage = "";
     }
 
     return <div className="race-page">
@@ -63,7 +63,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       </div>
       { courseImage }
       <div className="description-text">{ this.state.raceInfo.courseDescription }</div>
-    </div>
+    </div>;
   }
 }
 

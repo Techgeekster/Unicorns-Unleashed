@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './race-tile.scss';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./race-tile.scss";
 
 interface Props {
   raceName: string;
@@ -17,6 +17,6 @@ const RaceTile = (props: Props) => {
       </div>
     </Link>
   );
-}
+};
 
 export default RaceTile;

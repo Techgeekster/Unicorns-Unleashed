@@ -4,12 +4,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import './app.scss';
-import NavBar from './nav-bar/nav-bar';
-import Footer from './footer/footer';
-import Home from './home/home';
-import RacePage from './race-page/race-page';
-import UnderConstruction from './under-construction';
+import "./app.scss";
+import NavBar from "./nav-bar/nav-bar";
+import Footer from "./footer/footer";
+import Home from "./home/home";
+import RacePage from "./race-page/race-page";
+import UnderConstruction from "./under-construction";
 
 export default function App() {
   return (

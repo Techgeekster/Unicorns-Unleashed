@@ -1,6 +1,6 @@
-import React from 'react';
-import { shallow, ShallowWrapper } from 'enzyme';
-import App from './app';
+import React from "react";
+import { shallow, ShallowWrapper } from "enzyme";
+import App from "./app";
 
 let component: ShallowWrapper;
 

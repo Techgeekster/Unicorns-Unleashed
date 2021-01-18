@@ -1,6 +1,6 @@
-import React from 'react';
-import './footer.scss';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./footer.scss";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
