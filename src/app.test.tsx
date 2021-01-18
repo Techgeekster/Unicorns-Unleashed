@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow, ShallowWrapper } from 'enzyme';
-import Home from './home';
+import App from './app';
 
 let component: ShallowWrapper;
 
 beforeEach(() => {
   // arrange
-  component = shallow(<Home />);
+  component = shallow(<App />);
 });
 
 afterEach(() => {
@@ -14,7 +14,7 @@ afterEach(() => {
 });
 
 describe("should create", () => {
-  it("Home component", () => {
+  it("App component", () => {
     // assert
     expect(component).toBeTruthy();
   });

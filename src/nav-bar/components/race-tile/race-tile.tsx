@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './race-tile.scss';
 
 interface Props {
@@ -8,10 +9,12 @@ interface Props {
 
 const RaceTile = (props: Props) => {
   return (
-    <div className="race-tile">
-      { props.raceName }<br/>
-      { props.raceType }
-    </div>
+    <Link to="/race-page/55k">
+      <div className="race-tile">
+        { props.raceName }<br/>
+        { props.raceType }
+      </div>
+    </Link>
   );
 }
 

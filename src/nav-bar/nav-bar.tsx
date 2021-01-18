@@ -1,5 +1,6 @@
 import React from 'react';
 import './nav-bar.scss';
+import { Link } from 'react-router-dom';
 import unicornBanner from '../images/Unicorns-Unleashed-Banner.jpg';
 import RaceTile from './components/race-tile/race-tile';
 
@@ -7,7 +8,9 @@ function NavBar() {
   return (
     <div className="nav-bar">
       <header>
-        <img className="unicorn-banner" src={unicornBanner} alt="unicorn banner"/>
+        <Link to="/home">
+          <img className="unicorn-banner" src={unicornBanner} alt="unicorn banner"/>
+        </Link>
         <div className="race-tile-container">
           <RaceTile raceName="55k Ultra" raceType="Unicorn"/>
           <RaceTile raceName="5K" raceType="Rhinocorn"/>
