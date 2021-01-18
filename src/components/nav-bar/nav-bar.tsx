@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav-bar.scss';
 import { Link } from 'react-router-dom';
-import unicornBanner from '../images/Unicorns-Unleashed-Banner.jpg';
+import unicornBanner from '../../images/Unicorns-Unleashed-Banner.jpg';
 
 function NavBar() {
   return (

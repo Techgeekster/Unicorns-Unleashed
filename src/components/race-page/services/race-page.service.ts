@@ -1,5 +1,5 @@
 import data55k from '../race-info-files/55k.json';
-import courseImage55k from '../../images/55k-course.jpg';
+import courseImage55k from '../../../images/55k-course.jpg';
 import data5k from '../race-info-files/5k.json';
 import data1k from '../race-info-files/1k.json';
 import RaceInfo from '../race-info.model';
