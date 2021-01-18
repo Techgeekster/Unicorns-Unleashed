@@ -4,14 +4,16 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './home/home';
+import './app.scss';
 import NavBar from './nav-bar/nav-bar';
+import Footer from './footer/footer';
+import Home from './home/home';
 import RacePage from './race-page/race-page';
 
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="app">
         <NavBar />
 
         <Switch>
@@ -20,6 +22,8 @@ export default function App() {
           <Route path="/unicorns-unleashed" component={Home} />
           <Route path="/race-page/:id" component={RacePage} />
         </Switch>
+
+        <Footer />
       </div>
     </Router>
   );

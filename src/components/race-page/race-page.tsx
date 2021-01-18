@@ -39,7 +39,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
     return <div className="race-page">
       <div className="race-controls">
         <a className="button primary-button">Course Info</a>
-        <a className="button primary-button">Support</a>
+        <a className="button primary-button">Volunteer</a>
         <a className="button primary-button">Galleries</a>
         <a className="button primary-button">Results</a>
       </div>
