@@ -48,7 +48,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
           <div>General Information</div>
           <div className="title">{ this.state.raceInfo.title }</div>
         </div>
-        <a className="secondary-button">
+        <a className="secondary-button" href={ this.state.raceInfo.registrationLink }>
           <div>{ this.state.raceInfo.registrationText }</div>
         </a>
       </div>
