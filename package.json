@@ -1,7 +1,7 @@
 {
   "name": "unicorns-unleashed",
   "version": "0.1.0",
-  "homepage": "https://techgeekster.github.io/Unicorns-Unleashed/",
+  "homepage": "https://unicorns-unleashed.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

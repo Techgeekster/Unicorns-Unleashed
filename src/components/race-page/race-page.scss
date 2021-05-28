@@ -56,8 +56,26 @@
     }
   }
 
-  .description-text {
+  .course-description-container {
     margin: 50px 0;
+  }
+
+  .cut-off-times-container {
+    margin-bottom: 50px;
+
+    .cut-off-time-description {
+      margin-bottom: 5px;
+    }
+  }
+
+  .header {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+
+  .description-text {
     font-size: 25px;
   }
 }

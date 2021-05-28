@@ -4,6 +4,8 @@ interface RaceInfoModel {
   registrationLink: string;
   courseImageSrc: string;
   courseDescription: string;
+  cutOffTimes: string[];
+  coolFact: string;
 }
 
 export default RaceInfoModel;

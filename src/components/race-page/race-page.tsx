@@ -37,6 +37,31 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       courseImage = "";
     }
 
+    let cutOffTimes: JSX.Element[] = [];
+    if (this.state.raceInfo.cutOffTimes && this.state.raceInfo.cutOffTimes.length > 0) {
+      for (let cutOffTimeDescription of this.state.raceInfo.cutOffTimes) {
+        cutOffTimes.push(<div className="description-text cut-off-time-description" key={cutOffTimeDescription}>{cutOffTimeDescription}</div>);
+      }
+    }
+
+    let extraInfoContainers: JSX.Element[] = [];
+    if (this.state.raceInfo.cutOffTimes && this.state.raceInfo.cutOffTimes.length > 0) {
+      extraInfoContainers.push(
+        <div className="cut-off-times-container">
+          <div className="header">Cut Off Times:</div>
+          { cutOffTimes }
+        </div>
+      );
+    }
+    if (this.state.raceInfo.coolFact) {
+      extraInfoContainers.push(      
+        <div className="cool-fact-container">
+          <div className="header">Cool Fact:</div>
+          <div className="description-text">{ this.state.raceInfo.coolFact}</div>
+        </div>
+      );
+    }
+
     return <div className="race-page">
       <div className="race-controls">
         <Link className="button primary-button" to="/course-info">
@@ -62,7 +87,11 @@ class RacePage extends React.Component<RouteComponentProps, any> {
         </a>
       </div>
       { courseImage }
-      <div className="description-text">{ this.state.raceInfo.courseDescription }</div>
+      <div className="course-description-container">
+        <div className="header center">{ this.state.raceInfo.raceDistance } Course Description</div>
+        <div className="description-text">{ this.state.raceInfo.courseDescription }</div>
+      </div>
+      { extraInfoContainers }
     </div>;
   }
 }

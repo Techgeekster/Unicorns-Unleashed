@@ -20,6 +20,11 @@ export default class RacePageService {
 
   private get55kRaceInfo = (): RaceInfoModel => {
     data55k.courseImageSrc = courseImage55k;
+    console.log("START");
+    console.log(data55k.cutOffTimes[0]);
+    console.log(data55k.cutOffTimes[1]);
+    console.log(data55k.cutOffTimes[2]);
+    console.log("END");
     return data55k as RaceInfoModel;
   }
 
