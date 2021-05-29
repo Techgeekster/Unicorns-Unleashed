@@ -64,6 +64,9 @@ class RacePage extends React.Component<RouteComponentProps, any> {
 
     return <div className="race-page">
       <div className="race-controls">
+        <Link className="button primary-button" to="/home">
+          Home
+        </Link>
         <Link className="button primary-button" to="/course-info">
           Volunteer
         </Link>
@@ -83,6 +86,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
           <div>{ this.state.raceInfo.registrationText }</div>
         </a>
       </div>
+      <div className="description-text introduction-text">{ this.state.raceInfo.introduction }</div>
       { courseImage }
       <div className="course-description-container">
         <div className="header center">{ this.state.raceInfo.raceDistance } Course Description</div>
