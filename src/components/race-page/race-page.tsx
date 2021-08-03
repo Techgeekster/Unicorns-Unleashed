@@ -26,7 +26,14 @@ class RacePage extends React.Component<RouteComponentProps, any> {
     this.setState({ id: id, raceInfo: raceInfoService.getRaceInfo(id) });
   }
 
-  render() {    
+  render() {   
+    let introductionParagraphs: JSX.Element[] = [];
+    if (this.state.raceInfo.introduction && this.state.raceInfo.introduction.length > 0) {
+      for (let introductionParagraph of this.state.raceInfo.introduction) {
+        introductionParagraphs.push(<div className="description-text introduction-paragraph" key={introductionParagraph}>{introductionParagraph}</div>);
+      }
+    }
+    
     let courseImage;
     if (this.state.raceInfo.courseImageSrc) {
       courseImage =
@@ -35,6 +42,23 @@ class RacePage extends React.Component<RouteComponentProps, any> {
         </div>;
     } else {
       courseImage = "";
+    }
+
+    let courseLink;
+    if (this.state.raceInfo.courseLink) {
+      courseLink =
+        <div className="course-link">
+          <a href={ this.state.raceInfo.courseLink } target="_blank">Go to course stats</a>
+        </div>;
+    } else {
+      courseLink = "";
+    }
+
+    let courseDescriptionParagraphs: JSX.Element[] = [];
+    if (this.state.raceInfo.courseDescription && this.state.raceInfo.courseDescription.length > 0) {
+      for (let courseDescriptionParagraph of this.state.raceInfo.courseDescription) {
+        courseDescriptionParagraphs.push(<div className="description-text course-description-paragraph" key={courseDescriptionParagraph}>{courseDescriptionParagraph}</div>);
+      }
     }
 
     let cutOffTimes: JSX.Element[] = [];
@@ -53,6 +77,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
         </div>
       );
     }
+
     if (this.state.raceInfo.coolFact) {
       extraInfoContainers.push(      
         <div className="cool-fact-container">
@@ -86,11 +111,12 @@ class RacePage extends React.Component<RouteComponentProps, any> {
           <div>{ this.state.raceInfo.registrationText }</div>
         </a>
       </div>
-      <div className="description-text introduction-text">{ this.state.raceInfo.introduction }</div>
+      <div className="description-text introduction-text">{ introductionParagraphs }</div>
       { courseImage }
+      { courseLink }
       <div className="course-description-container">
         <div className="header center">{ this.state.raceInfo.raceDistance } Course Description</div>
-        <div className="description-text">{ this.state.raceInfo.courseDescription }</div>
+        <div className="description-text">{ courseDescriptionParagraphs }</div>
       </div>
       { extraInfoContainers }
     </div>;

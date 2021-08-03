@@ -2,9 +2,10 @@ interface RaceInfoModel {
   title: string;
   registrationText: string;
   registrationLink: string;
-  introduction: string;
+  introduction: string[];
   courseImageSrc: string;
-  courseDescription: string;
+  courseDescription: string[];
+  courseLink: string;
   cutOffTimes: string[];
   coolFact: string;
 }
