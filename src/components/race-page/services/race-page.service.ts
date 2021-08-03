@@ -1,6 +1,7 @@
 import data55k from "../race-info-files/55k.json";
 import courseImage55k from "../../../images/55k-course.jpg";
 import data5k from "../race-info-files/5k.json";
+import courseImage5k from "../../../images/5k-course.jpg";
 import data1k from "../race-info-files/1k.json";
 import courseImage1k from "../../../images/1k-course.jpg";
 import RaceInfoModel from "../race-info.model";
@@ -25,6 +26,7 @@ export default class RacePageService {
   }
 
   private get5kRaceInfo = (): RaceInfoModel => {
+    data5k.courseImageSrc = courseImage5k;
     return data5k as RaceInfoModel;
   }
 

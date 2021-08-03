@@ -6,6 +6,7 @@ interface RaceInfoModel {
   courseImageSrc: string;
   courseDescription: string[];
   courseLink: string;
+  embeddedLink: string;
   cutOffTimes: string[];
   coolFact: string;
 }

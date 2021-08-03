@@ -48,11 +48,27 @@ class RacePage extends React.Component<RouteComponentProps, any> {
     if (this.state.raceInfo.courseLink) {
       courseLink =
         <div className="course-link">
-          <a href={ this.state.raceInfo.courseLink } target="_blank">Go to course stats</a>
+          <a href={ this.state.raceInfo.courseLink } target="_blank">More Details</a>
         </div>;
     } else {
       courseLink = "";
     }
+
+    let embeddedMap;
+    if (this.state.raceInfo.embeddedLink && this.state.raceInfo.courseLink) {
+      let source: string = this.state.raceInfo.embeddedLink + "?width=600&height=500&elevation=true&info=true&line_color=E68006c6&rgbhex=c60680&distance_markers=0&unit_type=imperial&map_mode=HYBRID&show_marker_every=1&last_updated=2021-08-03T20:35:57+00:00";
+      embeddedMap =
+        <div className="embedded-map">
+          <iframe className="embedded-map-iframe" src={source} frameBorder='0'></iframe>
+          <div className="embedded-map-more-details-container">
+            <a target="_blank" rel="noopener noreferrer" href={ this.state.raceInfo.courseLink }>More Details</a>
+          </div>
+        </div>;
+    } else {
+      embeddedMap = "";
+    }
+
+    let interactiveMap = embeddedMap ? embeddedMap : courseLink;
 
     let courseDescriptionParagraphs: JSX.Element[] = [];
     if (this.state.raceInfo.courseDescription && this.state.raceInfo.courseDescription.length > 0) {
@@ -113,7 +129,7 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       </div>
       <div className="description-text introduction-text">{ introductionParagraphs }</div>
       { courseImage }
-      { courseLink }
+      { interactiveMap }
       <div className="course-description-container">
         <div className="header center">{ this.state.raceInfo.raceDistance } Course Description</div>
         <div className="description-text">{ courseDescriptionParagraphs }</div>
