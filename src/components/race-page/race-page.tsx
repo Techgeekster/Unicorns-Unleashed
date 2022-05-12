@@ -84,12 +84,28 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       }
     }
 
+    let packetPickup: JSX.Element[] = [];
+    if (this.state.raceInfo.packetPickup && this.state.raceInfo.packetPickup.length > 0) {
+      for (let packetPickupDescription of this.state.raceInfo.packetPickup) {
+        packetPickup.push(<div className="description-text packet-pickup-description" key={packetPickupDescription}>{packetPickupDescription}</div>);
+      }
+    }
+
     let extraInfoContainers: JSX.Element[] = [];
     if (this.state.raceInfo.cutOffTimes && this.state.raceInfo.cutOffTimes.length > 0) {
       extraInfoContainers.push(
         <div className="cut-off-times-container">
           <div className="header">Cut Off Times:</div>
           { cutOffTimes }
+        </div>
+      );
+    }
+
+    if (this.state.raceInfo.packetPickup && this.state.raceInfo.packetPickup.length > 0) {
+      extraInfoContainers.push(
+        <div className="packet-pickup-container">
+          <div className="header">Packet Pickup:</div>
+          { packetPickup }
         </div>
       );
     }
