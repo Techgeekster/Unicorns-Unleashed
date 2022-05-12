@@ -110,6 +110,15 @@ class RacePage extends React.Component<RouteComponentProps, any> {
       );
     }
 
+    if (this.state.raceInfo.facebookGroupUrl && this.state.raceInfo.facebookGroupUrl.length > 0) {
+      extraInfoContainers.push(
+        <div className="facebook-group-container">
+          <span className="header">Facebook Group:</span>
+          { packetPickup }
+        </div>
+      );
+    }
+
     if (this.state.raceInfo.coolFact) {
       extraInfoContainers.push(      
         <div className="cool-fact-container">
