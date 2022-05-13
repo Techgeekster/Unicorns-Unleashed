@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b1f1237c.chunk.css",
-    "main.js": "/static/js/main.75b34e1b.chunk.js",
-    "main.js.map": "/static/js/main.75b34e1b.chunk.js.map",
+    "main.js": "/static/js/main.c5ba2dd1.chunk.js",
+    "main.js.map": "/static/js/main.c5ba2dd1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1efa0a67.js",
     "runtime-main.js.map": "/static/js/runtime-main.1efa0a67.js.map",
     "static/js/2.62ca64be.chunk.js": "/static/js/2.62ca64be.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.b1f1237c.chunk.css.map": "/static/css/main.b1f1237c.chunk.css.map",
     "static/js/2.62ca64be.chunk.js.LICENSE.txt": "/static/js/2.62ca64be.chunk.js.LICENSE.txt",
     "static/media/1k-course.f0c25a08.jpg": "/static/media/1k-course.f0c25a08.jpg",
-    "static/media/55k-course.1e83daf7.jpg": "/static/media/55k-course.1e83daf7.jpg",
+    "static/media/55k-course.cac834bd.jpg": "/static/media/55k-course.cac834bd.jpg",
     "static/media/5k-course.88bb3248.jpg": "/static/media/5k-course.88bb3248.jpg",
     "static/media/Unicorns-Unleashed-Banner.27f7280a.jpg": "/static/media/Unicorns-Unleashed-Banner.27f7280a.jpg",
     "static/media/course-picture-1.824c7edd.jpg": "/static/media/course-picture-1.824c7edd.jpg",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.1efa0a67.js",
     "static/js/2.62ca64be.chunk.js",
     "static/css/main.b1f1237c.chunk.css",
-    "static/js/main.75b34e1b.chunk.js"
+    "static/js/main.c5ba2dd1.chunk.js"
   ]
 }
