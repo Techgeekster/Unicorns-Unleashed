@@ -112,9 +112,8 @@ class RacePage extends React.Component<RouteComponentProps, any> {
 
     if (this.state.raceInfo.facebookGroupUrl && this.state.raceInfo.facebookGroupUrl.length > 0) {
       extraInfoContainers.push(
-        <div className="facebook-group-container">
-          <span className="header">Facebook Group:</span>
-          { packetPickup }
+        <div className="facebook-group-container description-text">
+          <a href={ this.state.raceInfo.facebookGroupUrl } target="_blank">Unicorns Unleashed Facebook Group</a>
         </div>
       );
     }
