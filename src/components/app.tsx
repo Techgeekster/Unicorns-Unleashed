@@ -18,10 +18,10 @@ export default function App() {
         <NavBar />
 
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/home" component={Home} />
-          <Route path="/unicorns-unleashed" component={Home} />
-          <Route path="/race-page/:id" component={RacePage} />
+          <Route exact path="/" component={UnderConstruction} />
+          <Route path="/home" component={UnderConstruction} />
+          <Route path="/unicorns-unleashed" component={UnderConstruction} />
+          <Route path="/race-page/:id" component={UnderConstruction} />
           <Route path="*" component={UnderConstruction} />
         </Switch>
 
